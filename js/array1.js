@@ -17,8 +17,8 @@ const aumento = salario.map(salario => {
 
 const salarioMaior = aumento.filter(salario => salario > 2500);
 
-console.log("Salário: ", salario);
+//console.log("Salário: ", salario);
 
-console.log("Aumento no salário: ", aumento);
+//console.log("Aumento no salário: ", aumento);
 
-console.log("Salários que são maiores que 2500: ", salarioMaior);
+//console.log("Salários que são maiores que 2500: ", salarioMaior);
