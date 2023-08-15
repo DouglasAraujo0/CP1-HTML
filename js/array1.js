@@ -12,3 +12,13 @@ const aumento = salario.map(salario => {
     }
 });
 
+//2–Utilizando o array de resultado do exercício anterior,crie um novo array,usando o método filter(),
+//contendo somente os salários superiores a 2500.
+
+const salarioMaior = aumento.filter(salario => salario > 2500);
+
+console.log("Salário: ", salario);
+
+console.log("Aumento no salário: ", aumento);
+
+console.log("Salários que são maiores que 2500: ", salarioMaior);
